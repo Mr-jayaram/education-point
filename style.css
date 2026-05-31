@@ -105,7 +105,7 @@ img {
 }
 
 .container {
-    max-width: 95%;
+    max-width: 90%;
     margin: 0 auto;
     padding: 0 1.5rem;
 }
@@ -1498,10 +1498,15 @@ section {
 @media (max-width: 768px) {
     .container {
         padding: 0 1rem;
+        width: 100%;
     }
 
     section {
         padding: 4rem 0;
+    }
+
+    .badge-text {
+        font-size: 9px;
     }
 
     .header .container {
